@@ -832,6 +832,10 @@ section {
   line-height: 0;
 }
 
+.about_img{
+  border-radius: 20px;
+}
+
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
