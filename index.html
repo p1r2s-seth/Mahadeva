@@ -38,6 +38,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+
   <!-- <link href="assets/css/bootstrap_internal.css" rel="stylesheet"> -->
   <!-- <link rel='stylesheet' href='https://brand.workingsolutions.com/components/css/wsol-components.css'> -->
   <!-- <script src='https://brand.workingsolutions.com/components/js/react-embed.js'></script> -->
@@ -47,7 +49,34 @@
 
 <body>
 
-  <header class="header1 container">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo1.png" alt="">
+        <h1>Mahadeva<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+
+          <li><a class="nav-link scrollto" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+
+      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- <header class="header1 container">
     <a href="#" class="logo">
       <img src="assets/img/logo2.png" class="img-fluid header1img">
     </a>
@@ -59,7 +88,7 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact Us</a></li>
     </ul>
-  </header>
+  </header> -->
 
   <!-- ======= Header ======= -->
   <!-- <header class="header1">
@@ -129,7 +158,7 @@
   <div class="wrapper">
 
     <main class="main" data-aos="fade-up">
-      <section class="get-started" style="padding:1px 0;">
+      <section class="get-started" id="home">
         <div class="get-started__container">
           <div class="get-started__content">
             <div class="get-started__block-text block-text" data-aos="fade-up">
@@ -155,23 +184,73 @@
   </div>
   <!-- ======= try1 hero end Section ======= -->
 
+  <!-- ======= Featured Services Section ======= -->
+
+      
+
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- End Featured Services Section -->
+
   <!-- ======= try2 hero Section ======= -->
-  <!-- <div
-    style="height: 100vh; background-image: url('https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-size: cover; background-position: center;"
-    class="position-relative w-100">
-    <div class="position-absolute  d-flex flex-column align-items-start justify-content-center"
-      style="top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.7);">
+<section id="featured-services" class="featured-services bg-light">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-
-          <h2 style="color: #fff;">Our Process</h2>
+          <span>Our Process</span>
+          <h2>Our Process</h2>
 
         </div>
-        <div class="col-lg-3 col-sm-6 mb-3">
+        
 
-          <div class="cards">
-            <div class="card">
+          <!-- <div class="cards">
+
               
+            <div class="card">
+                  
               <article>
                 <h2>Strategize</h2>
                 
@@ -189,8 +268,10 @@
 
               </div>
             </div>
+
+            
             <div class="card">
-              
+                        
               <article>
                 <h2>Innovate</h2>
                 
@@ -209,8 +290,9 @@
               </div>
             </div>
 
+            
             <div class="card">
-              
+                          
               <article>
                 <h2>Execute</h2>
                 
@@ -229,8 +311,9 @@
               </div>
             </div>
 
-            <div class="card">
-              
+            
+            <div class="card"> 
+                          
               <article>
                 <h2>Optimize</h2>
                 
@@ -248,14 +331,62 @@
 
               </div>
             </div>
-          </div>
 
+          </div> -->
+
+          <div class="row gy-4">
+
+            <div class="col-xl-3 col-md-6 d-flex" >
+              <div class="service-item position-relative bg-light">
+                <!-- <div class="icon"><i class="bi bi-activity icon"></i></div> -->
+                <div class="icon"><i class="fa-solid fa-bullseye"></i></div>
+                <!-- <div class="pic"><img src="assets/img/gif/one.gif"></div> -->
+                <h4><a href="" class="stretched-link">Strategize</a></h4>
+                <p>At Mahadeva, we believe that the key to success is a well-crafted strategy. 
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex" >
+              <div class="service-item position-relative bg-light">
+                <!-- <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div> -->
+                <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <!-- <div class="pic"><img src="assets/img/gif/two.gif"></div> -->
+                <h4><a href="" class="stretched-link">Innovate</a></h4>
+                <p>Our team is dedicated to providing innovative logistics and warehousing solutions  
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex">
+              <div class="service-item position-relative bg-light">
+                <!-- <div class="icon"><i class="bi bi-calendar4-week icon"></i></div> -->
+                <div class="icon"><i class="fa-solid fa-warehouse"></i></div>
+                <!-- <div class="pic"><img src="assets/img/gif/three.gif"></div> -->
+                <h4><a href="" class="stretched-link">Execute</a></h4>
+                <p>At Mahadeva, we pride ourselves on our flawless execution. 
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-xl-3 col-md-6 d-flex">
+              <div class="service-item position-relative bg-light">
+                <!-- <div class="icon"><i class="bi bi-broadcast icon"></i></div> -->
+                <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+                <!-- <div class="pic"><img src="assets/img/gif/four.gif"></div> -->
+                <h4><a href="" class="stretched-link">Optimize</a></h4>
+                <p>Our ultimate goal is to optimize your business processes.
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+  
+          </div>
+  
 
         </div>
       </div>
-    </div>
-  </div>
-  </div> -->
+    </section>
+
   <!-- ======= try2 hero end Section ======= -->
 
 
@@ -263,18 +394,10 @@
 
   <main id="main">
 
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container">
-
-
-
-      </div>
-    </section>
-    <!-- End Featured Services Section -->
+    
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about pt-0" id="about">
+    <section id="about" class="about" id="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
@@ -465,7 +588,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/cross-svg.webp" alt="Close modal" />
           </div>
           <div class="container">
             <div>
@@ -552,7 +675,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/cross-svg.webp" alt="Close modal" />
           </div>
           <div class="container">
             <div>
@@ -582,7 +705,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/cross-svg.webp" alt="Close modal" />
           </div>
           <div class="container">
             <div>
@@ -1261,7 +1384,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/index.js"></script>
+  <!-- <script src="assets/js/index.js"></script> -->
+  
+
+
 
   <!-- <script>
     $(document).ready(function(){
@@ -1288,6 +1414,7 @@ $(document).ready(function(){
   });
 });
   </script> -->
+
 
 </body>
 
