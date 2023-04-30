@@ -611,10 +611,10 @@ section {
     z-index: 9996;
   }
 
-  .fixed-top{
+  /* .fixed-top{
     background: white;
     box-shadow: 0px 2px 20px #ccc;
-  }
+  } */
 
   .btn-getstarted{
     display: none;
