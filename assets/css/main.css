@@ -590,7 +590,7 @@ section {
   }
 
   .mobile-nav-toggle.bi-x {
-    color: var(--color-white);
+    color: var(--color-secondary);
   }
 
   .mobile-nav-active {
@@ -614,6 +614,10 @@ section {
   .fixed-top{
     background: white;
     box-shadow: 0px 2px 20px #ccc;
+  }
+
+  .btn-getstarted{
+    display: none;
   }
 
 }
