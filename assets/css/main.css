@@ -325,10 +325,17 @@ section {
   }
 }
 
+
+  .head_img{
+    margin-top: 8%;
+  }
+
+
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
+
   .navbar {
     padding: 0;
     position: relative;
@@ -3494,4 +3501,60 @@ button.contact_form_submit {
   }
 
 
+/* ////////CLIENT PAGE/////////// */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 1rem;
+}
+.grid > div {
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+.grid > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  grid-area: 1/1/2/2;
+}
+.grid > div img {
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+
+/* /////////network//////////// */
+.network ul{
+  font-size: 1.2rem;
+  line-height: 2.7;
+}
+
+/* /////////industries/////////// */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid1 > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.grid1 > article img {
+  max-width: 100%;
+}
+
+.industry_text {
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+}
+
+.grid1 .text {
+  padding: 20px;
+}
 
