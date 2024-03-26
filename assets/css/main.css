@@ -3505,7 +3505,7 @@ button.contact_form_submit {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
 }
 .grid > div {
