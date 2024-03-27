@@ -1345,7 +1345,7 @@ section {
   margin-top: -1px;
 }
 .contact-form .second-container form .form-group:first-of-type input {
-  width: 50.1%;
+  /* width: 50.1%; */
   margin-right: -5px;
 }
 .contact-form .second-container form .form-group input {
