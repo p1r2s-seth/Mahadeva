@@ -1675,8 +1675,11 @@ section {
         .testimonial_section .testimonial_box .testimonial_container .testimonials .testimonial_content {
           margin-left: -36px !important;
         }
-        .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
+        /* .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
           display: none;
+        } */
+        .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .images_box .testimonial_img{
+          top: 0px !important;
         }
       }
 
